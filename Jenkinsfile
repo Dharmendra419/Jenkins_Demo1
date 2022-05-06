@@ -1,8 +1,8 @@
-pipeline {  
+pipeline{  
     agent any  
-    stages {  
-            stage ('Build') {  
-                steps {  
+    stages{  
+            stage ('build') {  
+                steps{  
                         echo 'Running build phase...'  
                 }  
             }  
